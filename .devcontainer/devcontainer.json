@@ -1,0 +1,12 @@
+{
+  "name": "Goal Quiz",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "customizations": {
+    "vscode": {
+      "extensions": ["bradlc.vscode-tailwindcss", "esbenp.prettier-vscode"]
+    }
+  },
+  "forwardPorts": [5173],
+  "postCreateCommand": "cd web && npm install",
+  "postAttachCommand": "echo '➡️  გასაშვებად: cd web && npm run dev'"
+}

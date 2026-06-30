@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "language": "ka",
+    "rule": "ცოცხალი მოწინააღმდეგე თუ ვერ მოიძებნა → ბოტი. ბოტი მატჩში მაქსიმუმ 1 რაუნდს იგებს. სახელები ადამიანურ ნიქნეიმებს ჰგავს.",
+    "fields": "name = ნიქნეიმი, level = ჩვენებისთვის, skill = 0..1 (რამდენად ხშირად პასუხობს სწორად/სწრაფად)"
+  },
+  "bots": [
+    { "name": "Gio_10", "level": 4, "skill": 0.62 },
+    { "name": "messi_fan_99", "level": 6, "skill": 0.7 },
+    { "name": "Lasha_GK", "level": 3, "skill": 0.55 },
+    { "name": "TbilisiUltra", "level": 7, "skill": 0.74 },
+    { "name": "nika_07", "level": 2, "skill": 0.48 },
+    { "name": "Kvaradona_77", "level": 8, "skill": 0.8 },
+    { "name": "beqa.football", "level": 5, "skill": 0.66 },
+    { "name": "RealMadridGE", "level": 6, "skill": 0.71 },
+    { "name": "saba_striker", "level": 4, "skill": 0.6 },
+    { "name": "anfield_dato", "level": 5, "skill": 0.64 },
+    { "name": "luka_modric_ge", "level": 7, "skill": 0.76 },
+    { "name": "goga.9", "level": 3, "skill": 0.52 },
+    { "name": "CR7_giorgi", "level": 6, "skill": 0.69 },
+    { "name": "irakli_mid", "level": 4, "skill": 0.58 },
+    { "name": "ZuraThe8", "level": 5, "skill": 0.63 },
+    { "name": "tornike_bv", "level": 6, "skill": 0.72 },
+    { "name": "elguja_fc", "level": 3, "skill": 0.5 },
+    { "name": "davit__10", "level": 7, "skill": 0.78 },
+    { "name": "guram_keeper", "level": 2, "skill": 0.45 },
+    { "name": "the_real_otari", "level": 5, "skill": 0.65 }
+  ]
+}

@@ -82,9 +82,10 @@ export function ThemePoster({
         <div className="text-sm font-extrabold leading-tight text-flood">{theme}</div>
       </div>
       {state === "banned" && (
-        <div className="absolute inset-0 flex items-center justify-center bg-black/55">
-          <div className="rotate-[-8deg] rounded-md bg-danger px-3 py-1 text-sm font-black text-white shadow-lg">
-            ❌ დაბლოკილია
+        <div className="absolute inset-0 flex flex-col items-center justify-center gap-1 bg-black/60">
+          <div className="text-3xl">❌</div>
+          <div className="rotate-[-6deg] rounded bg-danger px-2 py-0.5 text-[11px] font-black text-white shadow-lg">
+            ბლოკი
           </div>
         </div>
       )}
